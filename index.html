@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>C 语言精讲包 · Newhgg</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC",sans-serif;background:#0a0e1a;color:#e4e9f7;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;background-image:radial-gradient(ellipse 600px 400px at 50% 0%,rgba(0,217,255,.08),transparent)}
+.wrap{max-width:720px;width:100%}
+.header{text-align:center;margin-bottom:32px}
+.header h1{font-size:2em;margin-bottom:8px;background:linear-gradient(90deg,#00d9ff,#7c5cff);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.header p{color:#8b95b8;font-size:1.05em}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:640px){.cards{grid-template-columns:1fr}}
+.card{background:#131829;border:1px solid #2a3451;border-radius:14px;padding:22px;transition:.25s;display:flex;flex-direction:column;gap:10px}
+.card:hover{border-color:#00d9ff;box-shadow:0 0 24px rgba(0,217,255,.25);transform:translateY(-3px)}
+.card .icon{font-size:2em}
+.card h3{font-size:1.15em}
+.card p{color:#8b95b8;font-size:.9em;flex:1}
+.card a{display:inline-block;padding:8px 16px;background:linear-gradient(90deg,#00d9ff,#7c5cff);color:#0a0e1a;font-weight:600;text-decoration:none;border-radius:8px;align-self:flex-start}
+.card a:hover{opacity:.85}
+.footer{text-align:center;margin-top:32px;color:#8b95b8;font-size:.85em}
+.footer a{color:#00d9ff}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <h1>💻 C 语言精讲包</h1>
+    <p>10 章 52 知识点 · 3D 图谱 · 内存/预编译/二进制视角 · 28 个练习源码</p>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <span class="icon">🌌</span>
+      <h3>3D 学习图谱</h3>
+      <p>10 章 52 知识点的 3D 星球导航，每个知识点含作用/格式/示例/易错点/随堂练习，支持 53 题题库模式。</p>
+      <a href="c3d.html">打开 3D 图谱 →</a>
+    </div>
+    <div class="card">
+      <span class="icon">📖</span>
+      <h3>揉碎精讲</h3>
+      <p>每知识点 6 段结构：本质 → 原理 → 内存与地址图 → 常见错例 → 记忆口诀 → 4 选 1 随堂自测（即时判分）。</p>
+      <a href="c-deep-dive.html">打开精讲 →</a>
+    </div>
+  </div>
+  <div class="footer">
+    <p>源码：<a href="https://github.com/Newhgg/c-lang-deep-dive">github.com/Newhgg/c-lang-deep-dive</a></p>
+    <p style="margin-top:8px"><a href="/">← 返回作品集</a></p>
+  </div>
+</div>
+</body>
+</html>
